@@ -4,11 +4,14 @@ This project aims to detect fake news using Natural Language Processing (NLP) an
 
 ---
 
-## 📂 Project Structure
+fake_news_detection/
+├── app/
+│   └── main.py             # Main script for training and testing the fake news detection model
+├── req.txt                 # Required Python libraries (used in Docker build)
+├── Dockerfile              # (Optional) For containerizing the application
+├── data/
+│   └── merged_news.csv     # Merged data from fake.csv and true.csv
 
-- `main.py` – Main script containing the code to train and test the fake news detection model.
-- `req.txt` – A list of required Python libraries.
-- `Dockerfile` – For containerizing the application (optional for deployment).
 
 ---
 
